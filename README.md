@@ -2,7 +2,7 @@
 
 Here are some sameple code from this project:
 
-[Pojo with Parcelable](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/entities/User.java) <br />
+[POJO with Parcelable](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/entities/User.java) <br />
 [Shared Preference](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/Infrastructure/Utils.java) <br />
 [Base Fragment Activity](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/activities/BaseFragmentActivity.java) <br />
 [Login Authentication](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/fragments/LoginFragment.java) <br />
