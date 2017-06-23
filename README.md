@@ -1,5 +1,7 @@
 # Catcha Event
 
+This is an event time matching application with chat functionalities. Users will have to pick at least one friend that he/she wants to hangout with. A matched event will be generated if selected friend(s) has an event created overlapped with chosen time frame. The system will also create a chat room for every matched event where users can communicate about the event details, venue, etc. This application is built using Firebase Authentication, Database, Storage, Analytics and Crashytics. It also uses Joda Time, RX Java 2, Butter Knife and Roughike Bottombar libraries with the backend powered by node.js.
+
 Here are some sameple code from this project:
 
 [POJO with Parcelable](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/entities/User.java) <br />
