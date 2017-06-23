@@ -4,6 +4,7 @@ Here are some sameple code from this project:
 
 [POJO with Parcelable](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/entities/User.java) <br />
 [Shared Preference](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/Infrastructure/Utils.java) <br />
+[Push Notification](https://github.com/mancng/CatchaEventEx/blob/master/app/src/main/java/com/mancng/catchaeventex/notifications/FriendRequestMessagingServices.java) <br />
 [Base Fragment Activity](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/activities/BaseFragmentActivity.java) <br />
 [Login Authentication](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/fragments/LoginFragment.java) <br />
 [Dialog Fragment](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/dialogs/DeleteEventDialogFragment.java) <br />
