@@ -19,3 +19,5 @@ Here are some sameple code from this project:
 [Layout Design](https://github.com/mancng/catchaeventex/blob/master/app/src/main/res/layout/activity_login.xml) <br />
 [FrameLayout & DialogLayout](https://github.com/mancng/catchaeventex/blob/master/app/src/main/res/layout/dialog_delete_event.xml) <br />
 [Espresso UI Test](https://github.com/mancng/catchaeventex/blob/master/app/src/androidTest/java/com/mancng/catchaeventex/LoginScreenTest.java)
+
+[<img src="resources/google-play-badge150.jpg">](https://play.google.com/store/apps/details?id=com.mancng.catcha&hl=en)
