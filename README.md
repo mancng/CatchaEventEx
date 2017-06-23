@@ -1,8 +1,8 @@
-# Catcha Event Sample Code
+# Catcha Event
 
 Here are some sameple code from this project:
 
-[Pojo](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/entities/User.java) <br />
+[Pojo with Parcelable](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/entities/User.java) <br />
 [Shared Preference](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/Infrastructure/Utils.java) <br />
 [Base Fragment Activity](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/activities/BaseFragmentActivity.java) <br />
 [Login Authentication](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/fragments/LoginFragment.java) <br />
@@ -16,6 +16,6 @@ Here are some sameple code from this project:
 [RecyclerView.ViewHolder](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/views/InboxViewHolder.java) <br />
 [RecyclerView.Adapter](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/views/InboxAdapter.java) <br />
 [Search Bar](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/fragments/EventCreationFriendPickerFragment.java) <br />
-[Espresso Tests](https://github.com/mancng/catchaeventex/blob/master/app/src/androidTest/java/com/mancng/catchaeventex/LoginScreenTest.java) <br />
 [Layout Design](https://github.com/mancng/catchaeventex/blob/master/app/src/main/res/layout/activity_login.xml) <br />
-[FrameLayout & DialogLayout](https://github.com/mancng/catchaeventex/blob/master/app/src/main/res/layout/dialog_delete_event.xml)
+[FrameLayout & DialogLayout](https://github.com/mancng/catchaeventex/blob/master/app/src/main/res/layout/dialog_delete_event.xml) <br />
+[Espresso UI Test](https://github.com/mancng/catchaeventex/blob/master/app/src/androidTest/java/com/mancng/catchaeventex/LoginScreenTest.java)

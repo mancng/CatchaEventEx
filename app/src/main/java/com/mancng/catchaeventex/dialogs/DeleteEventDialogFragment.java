@@ -23,8 +23,6 @@ public class DeleteEventDialogFragment extends BaseDialog implements View.OnClic
     private String mEventName;
     private String mCurrentUserEmailString;
 
-    private LiveEventServices mLiveEventServices;
-
 
     public static DeleteEventDialogFragment newInstance (ArrayList<String> eventDetails) {
 
@@ -44,13 +42,7 @@ public class DeleteEventDialogFragment extends BaseDialog implements View.OnClic
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        //Create ArrayList to hold eventDetails from bundle
-        ArrayList<String> eventDetails = getArguments().getStringArrayList(EVENT_DETAILS_EXTRA);
-        mEventIdString = eventDetails.get(0);
-        mEventName = eventDetails.get(1);
-
         mCurrentUserEmailString = mSharedPreferences.getString(Utils.USER_EMAIL, "");
-        mLiveEventServices = LiveEventServices.getInstance();
     }
 
 
@@ -62,7 +54,6 @@ public class DeleteEventDialogFragment extends BaseDialog implements View.OnClic
                 .setView(getActivity().getLayoutInflater().inflate(R.layout.dialog_delete_event, null))
                 .setPositiveButton("Yes", null)
                 .setNegativeButton("Cancel", null)
-//                .setTitle("Delete Event?")
                 .show();
 
         dialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener(this);
@@ -76,8 +67,6 @@ public class DeleteEventDialogFragment extends BaseDialog implements View.OnClic
         //If user clicks yes
         Toast.makeText(getContext(), mEventName + " " + getString(R.string.delete_warning), Toast.LENGTH_SHORT).show();
         dismiss();
-
-        mLiveEventServices.deleteEvent(mCurrentUserEmailString, mEventIdString);
     }
 
 

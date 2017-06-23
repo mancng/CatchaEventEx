@@ -189,7 +189,6 @@ public class EventCreationFriendPickerFragment extends BaseFragment implements E
         if (mGetAllCurrentUserFriendsListener != null) {
             mGetAllCurrentUserFriendsReference.removeEventListener(mGetAllCurrentUserFriendsListener);
         }
-
     }
 
 
@@ -197,5 +196,4 @@ public class EventCreationFriendPickerFragment extends BaseFragment implements E
     public void onDestroy() {
         super.onDestroy();
     }
-
 }

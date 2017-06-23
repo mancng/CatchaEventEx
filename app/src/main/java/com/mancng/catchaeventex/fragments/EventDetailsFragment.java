@@ -41,6 +41,7 @@ public class EventDetailsFragment extends BaseFragment{
         return rootView;
     }
 
+
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
@@ -58,6 +59,7 @@ public class EventDetailsFragment extends BaseFragment{
         transaction.commit();
     }
 
+
     public static void detachEventDetailsDetailFragment() {
 
         EventDetailsDetailFragment eventDetailsDetailFragment = (EventDetailsDetailFragment) mFragmentManager.findFragmentByTag("EventDetailsDetailFragment");
@@ -68,6 +70,7 @@ public class EventDetailsFragment extends BaseFragment{
             transaction.commit();
         }
     }
+
 
     public static void attachEventDetailsDetailFragment() {
 

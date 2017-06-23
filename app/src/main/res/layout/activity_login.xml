@@ -85,6 +85,4 @@
         android:layout_below="@+id/activity_login_resetPassword"
         android:layout_marginTop="3dp"
         android:background="@android:color/background_light"/>
-
-
 </RelativeLayout>

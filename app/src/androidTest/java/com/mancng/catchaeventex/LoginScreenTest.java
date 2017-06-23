@@ -41,7 +41,6 @@ public class LoginScreenTest {
         mEmail = "xyz.gmail.com";
         mInvalidEmail = "abcde";
         mPassword = "mypass";
-
     }
 
     @Test
@@ -153,5 +152,4 @@ public class LoginScreenTest {
             }
         };
     }
-
 }

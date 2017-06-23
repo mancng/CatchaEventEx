@@ -23,8 +23,8 @@ public class InboxViewHolder extends RecyclerView.ViewHolder{
     public InboxViewHolder(View itemView) {
         super(itemView);
         ButterKnife.bind(this, itemView);
-
     }
+
 
     public void populate (Context context, ChatRoom chatRoom, String currentUserEmail) {
         itemView.setTag(chatRoom);

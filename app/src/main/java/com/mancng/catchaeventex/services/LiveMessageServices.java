@@ -2,13 +2,12 @@ package com.mancng.catchaeventex.services;
 
 import android.database.Observable;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.mancng.catchaeventex.Infrastructure.Utils;
 import com.mancng.catchaeventex.R;
 import com.mancng.catchaeventex.activities.BaseFragmentActivity;
+import com.mancng.catchaeventex.views.InboxAdapter;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -32,6 +31,7 @@ public class LiveMessageServices {
             return mLiveMessageServices;
         }
     }
+
 
     //ValueEventListener to get chat to InboxFragment
     public ValueEventListener getAllChats (final RecyclerView recyclerView, final TextView textView,
