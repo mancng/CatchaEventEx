@@ -2,7 +2,7 @@
 
 This is a time matching application with chat functionalities. Users get to pick a number of connected friends that he/she wants to simply hang out or coordinate with. A matched event will be generated if selected friend(s) has an event created that overlaps within a chosen time frame. The app also includes chat capabilities for every matched event. There the users can further communicate with each other about specific details of the event, driving instructions, venue, etc. This application was built with Firebase Authentication, Database, Storage, Analytics and Crashytics. It also uses Joda Time, RX Java 2, Butter Knife and Roughike Bottombar libraries with the backend powered by node.js.
 
-Here are some sameple code from this project:
+Here are some sample code from this project:
 
 [POJO with Parcelable](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/entities/User.java) <br />
 [Shared Preference](https://github.com/mancng/catchaeventex/blob/master/app/src/main/java/com/mancng/catchaeventex/Infrastructure/Utils.java) <br />
